@@ -28,6 +28,7 @@ body{
   line-height: 1.5em;
   background-color: var(--fundo-principal);
   color: var(--texto);
+  transition: background-color 0.3s, color 0.3s;
 
 }
 
@@ -38,6 +39,9 @@ header{
   display: flex;
   justify-content: flex-end;
   align-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 
 }
 
@@ -74,6 +78,7 @@ section#ficha{
   padding: 20px;
   border-radius: 8px;
   grid-column: 2;
+  transition: background-color 0,3ms;
 }
 
 section#ficha img.foto {
@@ -159,6 +164,7 @@ article h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 5px;
 }
 
 #skill-container .nome {
